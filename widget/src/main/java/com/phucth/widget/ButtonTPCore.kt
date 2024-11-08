@@ -1,4 +1,4 @@
-package com.phucth.component
+package com.phucth.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
-import com.phucth.component.databinding.ButtonTpCoreBinding
+import com.phucth.widget.databinding.ButtonTpCoreBinding
+
+
 
 open class ButtonTPCore @JvmOverloads constructor(
     private val context: Context,

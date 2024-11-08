@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Component"
+rootProject.name = "TestComponent"
 include(":app")
+include(":widget")

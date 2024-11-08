@@ -1,4 +1,4 @@
-package com.phucth.component
+package com.phucth.widget
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.phucth.component", appContext.packageName)
+        assertEquals("com.phucth.widget.test", appContext.packageName)
     }
 }

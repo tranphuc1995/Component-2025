@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    <com.phucth.component.ButtonTPCore-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:buttonColor="@android:color/holo_red_dark"-->
-<!--        app:buttonStatus="disable"-->
-<!--        app:buttonText="xxxxx"-->
-<!--        app:buttonTextColor="@android:color/holo_blue_light"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <com.phucth.component.MyCustomButton
-        android:id="@+id/myBtn"
-        app:buttonTextColor="@android:color/holo_blue_light"
+    <com.phucth.widget.ButtonTPCore
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

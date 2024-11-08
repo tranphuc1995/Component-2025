@@ -1,4 +1,4 @@
-package com.phucth.component
+package com.phucth.testcomponent
 
 import org.junit.Test
 
