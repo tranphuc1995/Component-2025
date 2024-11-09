@@ -39,7 +39,7 @@ android {
 
 dependencies {
 
-    implementation(project(":widget"))
+    //implementation(project(":widget"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -49,4 +49,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("com.github.tranphuc1995:component:1.0.1")
 }
