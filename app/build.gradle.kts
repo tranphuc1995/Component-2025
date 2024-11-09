@@ -50,5 +50,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation("com.github.tranphuc1995:component:1.0.1")
+    implementation(libs.component)
 }
